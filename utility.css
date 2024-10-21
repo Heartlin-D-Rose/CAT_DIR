@@ -1,0 +1,37 @@
+/*fonts*/
+
+/*INTER*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.0.2/inter.css');
+.font_INTER{
+    font-family: 'Inter';
+}
+/*RALEWAY*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.font_RALEWAY{
+    font-family: 'Raleway';
+}
+
+.font_ROBOTO{
+   font-family: 'Roboto';
+}
+
+
+.xity_darkblue{
+    color:rgb(16, 29, 107);
+}
+
+.xity_lightblue{
+    color: rgb(109, 182, 253);
+}
+
+.xity_bgcolor{
+    color: rgb(246, 246, 246);
+}
+
+.xity_opacolor{
+    color:rgba(255, 255, 255, 0.71);
+}
+
+.white{
+    color: white;
+}
