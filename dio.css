@@ -1,0 +1,174 @@
+main{
+    background-color: #f6f6f6;
+}
+main{
+    font-family: "Inter", sans-serif;
+    font-style: normal;   
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f6f6f6;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+    max-width: 1270px;
+    background-color: #f6f6f6;
+    margin: 15px;
+
+}
+.category_list {
+    color: rgb(0, 0, 0);
+    z-index: 3;
+    font-weight: normal;
+    font-size: 13px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-end; 
+    margin: -25px 0 0 -5px;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px;
+    cursor: pointer;
+}
+.card_container{
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+.c {
+    height: 200px;
+    width: 390px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 15px 15px 0 0; 
+    transition: transform 0.5s ease;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.c:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.card_1{
+    background-image: url('images/exotel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+.card_2 {
+    background-image: url('images/foodandb.png');
+    background-repeat: no-repeat;
+}
+
+.card_3 {
+    background-image: url('images/gym.png');
+    background-repeat: no-repeat;
+}
+
+.card_4 {
+    background-image: url('images/hotels.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_5 {
+    background-image: url('images/shops.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logos {
+       background-color: #e3eeff;
+     position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow:black 2px;
+   top:20px;
+   left:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #00000040 0 54px 55px, #0000001f 0 -12px 30px, #0000001f 0 4px 6px, #0000002b 0 12px 13px, #00000017 0 -3px 5px;;
+}
+.logo1{
+    background-image: url('images/exotel.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    background-size: 30px;
+   
+}
+.logo2{
+    background-image: url('images/media_1713765805751_Razorpay.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    background-size: 30px;
+}
+.logo3{
+    background-image: url('images/media_1708094853903_team1-1.jpg');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    background-size: 30px;
+
+}
+.logo5{
+    background-image: url('images/globe.jpg');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    background-size: 30px;
+    background-position: center;
+}
+
+pre {
+    color:black;
+    font-size: 13px;
+
+}
+.caption{
+    color: black;
+    font:20px inter;
+    padding: 0 0 0 10px;
+    margin: -15px 0 -13px 0;
+
+}
+.caption:hover{
+    color:#6db6fd;
+}
+.container1{
+    height: 290px;
+    width: 390px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    margin: 24px 0 0 0;
+    margin: 15px;
+}
+ hr{
+    color: gray;
+    opacity: 0.2;
+ }
